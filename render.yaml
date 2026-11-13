@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: paymatch
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: DEMO_MODE
+        value: "true"
+      - key: AS_OF_DATE
+        value: "2026-11-13"
+      - key: BUSINESS_NAME
+        value: Kola Foods Distribution Ltd
+      - key: API_KEY
+        generateValue: true
