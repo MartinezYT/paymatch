@@ -5,7 +5,7 @@
 [![CI](https://github.com/MartinezYT/paymatch/actions/workflows/ci.yml/badge.svg)](https://github.com/MartinezYT/paymatch/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.12-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-✓-009688) ![Groq](https://img.shields.io/badge/AI-Groq%20free%20tier-f55036)
 
-🔗 **Live demo:** LIVE_DEMO_LINK · 📖 **API docs:** LIVE_DEMO_LINK/docs
+🔗 **Live demo:** https://paymatch-nhk8.onrender.com · 📖 **API docs:** https://paymatch-nhk8.onrender.com/docs
 
 ![Dashboard](docs/overview.png)
 
@@ -95,6 +95,9 @@ GROQ_API_KEY=... python -m evals.run_eval --ai
 | Engine | Correct | Applied automatically | Wrong automatic matches |
 |---|---|---|---|
 | Rules | 26/26 | 11/26 (42%) | 0 |
+| Rules + Groq `openai/gpt-oss-120b` (live deployment) | 26/26 | 11/26 (42%) | 0 |
+
+On the live deployment (13 Nov 2026), the AI reviewed the 6 credits the rules couldn't place: a POS settlement, bank interest, an own-account transfer, a reversal, a non-customer and the bare `TRANSFER` that fits two customers. It **correctly declined all 6** and gave a checkable reason each time, for example *"Two open invoices match the amount (1016 and 1023), making it ambiguous"*. Its positive path (picking invoices for a payment the rules missed) is covered by tests with a fake model, but this dataset doesn't exercise it live.
 
 The rules were written alongside this dataset, so treat the score as a check that every situation is handled as designed, not as a real-world accuracy figure. The meaningful numbers are the 0 wrong automatic matches and the CI guard that keeps it that way.
 
