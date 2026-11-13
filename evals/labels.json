@@ -1,0 +1,205 @@
+[
+ {
+  "narration": "NIP TRF FRM CHINEDU STORES LTD/INV-1001/GTB/0123456789",
+  "amount": 450000,
+  "expected": [
+   "1001"
+  ],
+  "situation": "invoice number quoted"
+ },
+ {
+  "narration": "MOBILE TRF FROM MAMA NKECHI PROV",
+  "amount": 96800,
+  "expected": [
+   "1004"
+  ],
+  "situation": "abbreviated name, exact amount"
+ },
+ {
+  "narration": "TRANSFER FROM OLUWASEUN ADEBAYO/FBN",
+  "amount": 1250000,
+  "expected": [
+   "1006"
+  ],
+  "situation": "owner pays from personal account"
+ },
+ {
+  "narration": "USSD/ZEN/BLESSED HANDS SUPERMKT",
+  "amount": 343400,
+  "expected": [
+   "1008",
+   "1009"
+  ],
+  "situation": "one transfer, two invoices"
+ },
+ {
+  "narration": "NIP TRF FRM ZARA PHARMACY LTD PART PAYMT",
+  "amount": 300000,
+  "expected": [
+   "1029",
+   "1011"
+  ],
+  "situation": "part payment: oldest debt first"
+ },
+ {
+  "narration": "TRF FRM CHINEDU STORE LTD INV 1002",
+  "amount": 182250,
+  "expected": [
+   "1002"
+  ],
+  "situation": "typo in name + invoice number"
+ },
+ {
+  "narration": "FT/ACCESS/EMEKA OKEKE VENT/0098812231",
+  "amount": 615300,
+  "expected": [
+   "1013"
+  ],
+  "situation": "abbreviated company name"
+ },
+ {
+  "narration": "NIP/OPAY/TUNDE BAKARE",
+  "amount": 233600,
+  "expected": [
+   "1015"
+  ],
+  "situation": "owner name via fintech app"
+ },
+ {
+  "narration": "GOLDEN GATE HOTELS LTD PYMT 1017 1018",
+  "amount": 1390500,
+  "expected": [
+   "1017",
+   "1018"
+  ],
+  "situation": "bare invoice numbers, two invoices"
+ },
+ {
+  "narration": "POS SETTLEMENT/WEB/2231998",
+  "amount": 23456.78,
+  "expected": [],
+  "situation": "card settlement, not a customer"
+ },
+ {
+  "narration": "INTEREST CREDIT OCT 2026",
+  "amount": 1204.55,
+  "expected": [],
+  "situation": "bank interest"
+ },
+ {
+  "narration": "NIP TRF FRM HOPE MEDICAL STORE",
+  "amount": 175000,
+  "expected": [
+   "1020"
+  ],
+  "situation": "two invoices share the amount: oldest first"
+ },
+ {
+  "narration": "TRANSFER FROM BISI LAWAL/UBA",
+  "amount": 58900,
+  "expected": [
+   "1022"
+  ],
+  "situation": "owner name"
+ },
+ {
+  "narration": "MB TRF JOY NWOSU/KUDA",
+  "amount": 121750,
+  "expected": [
+   "1024",
+   "1025"
+  ],
+  "situation": "owner pays two invoices at once"
+ },
+ {
+  "narration": "NIP TRF FRM IBRAHIM SANI/JAIZ",
+  "amount": 1000000,
+  "expected": [
+   "1036",
+   "1026",
+   "1027"
+  ],
+  "situation": "overpayment"
+ },
+ {
+  "narration": "TRF FRM AMARACHI OKORO",
+  "amount": 287500,
+  "expected": [
+   "1003"
+  ],
+  "situation": "unknown payer, unique amount"
+ },
+ {
+  "narration": "TRANSFER",
+  "amount": 150000,
+  "expected": [],
+  "situation": "no name, amount fits two customers: must not guess"
+ },
+ {
+  "narration": "NIP TRF FRM ZAINAB MUSA",
+  "amount": 88750,
+  "expected": [
+   "1012"
+  ],
+  "situation": "owner name"
+ },
+ {
+  "narration": "NIP TRF FRM EMEKA OKEKE",
+  "amount": 142000,
+  "expected": [
+   "1014"
+  ],
+  "situation": "company name without suffix"
+ },
+ {
+  "narration": "NIP TRF FRM KOLA FOODS DISTRIBUTION LTD/OWN ACCT",
+  "amount": 2000000,
+  "expected": [],
+  "situation": "transfer between own accounts"
+ },
+ {
+  "narration": "REVERSAL/NIP/FAILED TRF 88123",
+  "amount": 15000,
+  "expected": [],
+  "situation": "reversal of a failed payment"
+ },
+ {
+  "narration": "TRF FRM DR FEMI A./HOPE MED",
+  "amount": 175000,
+  "expected": [
+   "1021"
+  ],
+  "situation": "messy name + duplicate amount"
+ },
+ {
+  "narration": "PAYMENT FOR 20 CTNS INDOMIE - SUNNY GROCERS",
+  "amount": 184000,
+  "expected": [],
+  "situation": "not a customer on file"
+ },
+ {
+  "narration": "NIP TRF FRM FRESH BASKET/1031",
+  "amount": 318000,
+  "expected": [
+   "1031"
+  ],
+  "situation": "short name + bare invoice number"
+ },
+ {
+  "narration": "NIP TRF FRM GOLDEN GATE HOTELS",
+  "amount": 500000,
+  "expected": [
+   "1019"
+  ],
+  "situation": "part payment of an old debt"
+ },
+ {
+  "narration": "MOBILE TRF IKOYI CORNER SHOP",
+  "amount": 189000,
+  "expected": [
+   "1030",
+   "1023"
+  ],
+  "situation": "two invoices, oldest is 65 days old"
+ }
+]

@@ -1,0 +1,37 @@
+invoice_number,customer,amount,issue_date,due_date,aliases,email
+INV-1001,Chinedu Stores Ltd,"450,000.00",2026-10-04,2026-11-03,Chinedu Okafor,accounts@chinedustores.ng
+INV-1002,Chinedu Stores Ltd,"182,250.00",2026-10-09,2026-11-08,Chinedu Okafor,accounts@chinedustores.ng
+INV-1003,Chinedu Stores Ltd,"287,500.00",2026-10-24,2026-11-23,Chinedu Okafor,accounts@chinedustores.ng
+INV-1004,Mama Nkechi Provisions,"96,800.00",2026-10-11,2026-10-25,Nkechi Eze,nkechi.provisions@gmail.com
+INV-1005,Mama Nkechi Provisions,"64,000.00",2026-11-01,2026-11-15,Nkechi Eze,nkechi.provisions@gmail.com
+INV-1006,Adebayo & Sons Enterprises,"1,250,000.00",2026-09-29,2026-10-29,Oluwaseun Adebayo,adebayoandsons@yahoo.com
+INV-1007,Adebayo & Sons Enterprises,"340,000.00",2026-11-05,2026-12-05,Oluwaseun Adebayo,adebayoandsons@yahoo.com
+INV-1008,Blessed Hands Supermarket,"215,000.00",2026-10-06,2026-11-05,Grace Ibe,blessedhands.smkt@gmail.com
+INV-1009,Blessed Hands Supermarket,"128,400.00",2026-10-13,2026-11-12,Grace Ibe,blessedhands.smkt@gmail.com
+INV-1010,Blessed Hands Supermarket,"77,000.00",2026-11-08,2026-12-08,Grace Ibe,blessedhands.smkt@gmail.com
+INV-1011,Zara Pharmacy Ltd,"520,000.00",2026-09-24,2026-10-24,Zainab Musa,zarapharmacy@outlook.com
+INV-1012,Zara Pharmacy Ltd,"88,750.00",2026-10-22,2026-11-21,Zainab Musa,zarapharmacy@outlook.com
+INV-1013,Emeka Okeke Ventures,"615,300.00",2026-10-08,2026-11-07,,emekaokekeventures@gmail.com
+INV-1014,Emeka Okeke Ventures,"142,000.00",2026-10-26,2026-11-25,,emekaokekeventures@gmail.com
+INV-1015,Fresh Basket Mart,"233,600.00",2026-10-15,2026-11-05,Tunde Bakare,freshbasket@gmail.com
+INV-1016,Fresh Basket Mart,"150,000.00",2026-10-29,2026-11-19,Tunde Bakare,freshbasket@gmail.com
+INV-1017,Golden Gate Hotels Ltd,"980,000.00",2026-10-02,2026-11-01,,procurement@goldengatehotels.ng
+INV-1018,Golden Gate Hotels Ltd,"410,500.00",2026-10-03,2026-11-02,,procurement@goldengatehotels.ng
+INV-1019,Golden Gate Hotels Ltd,"1,120,000.00",2026-08-10,2026-09-09,,procurement@goldengatehotels.ng
+INV-1020,Hope Medical Store,"175,000.00",2026-10-10,2026-11-09,Femi Adeyemi,hopemedical@yahoo.com
+INV-1021,Hope Medical Store,"175,000.00",2026-10-17,2026-11-16,Femi Adeyemi,hopemedical@yahoo.com
+INV-1022,Ikoyi Corner Shop,"58,900.00",2026-10-18,2026-11-01,Bisi Lawal,ikoyicorner@gmail.com
+INV-1023,Ikoyi Corner Shop,"150,000.00",2026-11-03,2026-11-17,Bisi Lawal,ikoyicorner@gmail.com
+INV-1024,Joy Bakery & Cafe,"72,500.00",2026-10-14,2026-10-28,Joy Nwosu,joybakery@gmail.com
+INV-1025,Joy Bakery & Cafe,"49,250.00",2026-10-20,2026-11-03,Joy Nwosu,joybakery@gmail.com
+INV-1026,Kano Traders Co,"300,000.00",2026-10-07,2026-11-06,Ibrahim Sani,kanotraders@gmail.com
+INV-1027,Kano Traders Co,"455,000.00",2026-09-04,2026-10-04,Ibrahim Sani,kanotraders@gmail.com
+INV-1028,Mama Nkechi Provisions,"112,300.00",2026-07-26,2026-08-09,Nkechi Eze,nkechi.provisions@gmail.com
+INV-1029,Zara Pharmacy Ltd,"246,000.00",2026-08-30,2026-09-29,Zainab Musa,zarapharmacy@outlook.com
+INV-1030,Ikoyi Corner Shop,"39,000.00",2026-09-09,2026-09-23,Bisi Lawal,ikoyicorner@gmail.com
+INV-1031,Fresh Basket Mart,"318,000.00",2026-09-22,2026-10-13,Tunde Bakare,freshbasket@gmail.com
+INV-1032,Joy Bakery & Cafe,"95,000.00",2026-11-07,2026-11-21,Joy Nwosu,joybakery@gmail.com
+INV-1033,Emeka Okeke Ventures,"207,800.00",2026-11-10,2026-12-10,,emekaokekeventures@gmail.com
+INV-1034,Chinedu Stores Ltd,"512,000.00",2026-11-11,2026-12-11,Chinedu Okafor,accounts@chinedustores.ng
+INV-1035,Hope Medical Store,"66,400.00",2026-09-16,2026-10-16,Femi Adeyemi,hopemedical@yahoo.com
+INV-1036,Kano Traders Co,"128,000.00",2026-11-04,2026-12-04,Ibrahim Sani,kanotraders@gmail.com
